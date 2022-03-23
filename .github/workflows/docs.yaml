@@ -26,9 +26,9 @@ jobs:
           pip install -U . && pip install -U pdoc3
       - name: Generate docs
         run: |
-          pdoc3 --html --html-dir docs shape_challenge
+          pdoc3 --html --html-dir docs geolocate
       - name: Deploy docs
         uses: JamesIves/github-pages-deploy-action@v4.2.3
         with:
           branch: gh-pages
-          folder: docs/shape_challenge
+          folder: docs/geolocate
