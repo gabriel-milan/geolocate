@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Constant parameters for the whole project.
+"""
+
+ACTION_IGNORE = "ignore"
+ACTION_RAISE = "raise"
+
+DEFAULT_ACTION_ON_ERROR = ACTION_RAISE
+DEFAULT_ACTION_ON_NOT_FOUND = ACTION_IGNORE
+DEFAULT_BACKOFF_FACTOR = 0.1
+DEFAULT_TIMEOUT_SECONDS = 2
+DEFAULT_TRIES = 3
