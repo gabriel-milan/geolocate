@@ -2,6 +2,8 @@
 
 Georeferencing large amounts of data for free.
 
+Special thanks to @brunodepauloalmeida and the whole team for the contributions.
+
 ## How?
 
 It's using the very same API that Waze uses to georeference addresses before
